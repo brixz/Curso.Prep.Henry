@@ -3,4 +3,7 @@ STRINGS; tipo de dato creado  por conjunto de palabras o palabra sola.
 FUNCTION; forma de almacenar gran cantidad de datos sin necesidad de crear muchas variables.
 		ARGUMENTOS: es una variable dentro de una functions.
 		RETURN: retorna o muestra lo que esta dentro de la function.
-DECLARACION IF;
+DECLARACION IF; forma de dar orden al interprete.
+BOOLEANS;  tipo de dato: 
+			TRUE; verdadero.
+			FALSE: falso.
