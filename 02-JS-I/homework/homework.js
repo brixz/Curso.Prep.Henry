@@ -139,6 +139,7 @@ function esImpar(num) {
   }
   else{
       return false
+ }
 }
 esImpar(4);//true
 function elevarAlCuadrado(num) {
@@ -323,4 +324,3 @@ module.exports = {
   deEuroAdolar,
   esVocal,
  };
- 
