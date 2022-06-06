@@ -5,14 +5,28 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
+  if(x < y){
+    return y;
+  }
+    else{
+      return x;
+      }
+  else if (x === x){
+    return (x || y);
+  }
 }
-
+obtenerMayor(4,6);
 function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
   //Si tiene 18 años ó más, devolver --> "Allowed"
   //Si es menor, devolver --> "Not allowed"
+  if (edad >= 18) {
+    return "allowed";
+  }
+  return "Not allowed"
 }
-  
+ mayoriaDeEdad(19); 
+
 function conection(status) {
   //Recibimos un estado de conexión de un usuario representado por un valor numérico. 
   //Cuando el estado es igual a 1, el usuario está "Online"
