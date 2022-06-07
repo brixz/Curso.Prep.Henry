@@ -4,6 +4,6 @@ FUNCTION; forma de almacenar gran cantidad de datos sin necesidad de crear mucha
 		ARGUMENTOS: es una variable dentro de una functions.
 		RETURN: retorna o muestra lo que esta dentro de la function.
 DECLARACION IF; forma de dar orden al interprete.
-BOOLEANS;  tipo de dato: 
+BOOLEANS;  tipos de datos: 
 			TRUE; verdadero.
 			FALSE: falso.
