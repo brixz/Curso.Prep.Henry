@@ -29,7 +29,7 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 #ejercicioTres{
     width: 200px;
     height: 100px;
-    position: center;
+    position:absolute;
 }
 /* Ejercicio 4: */
 
