@@ -28,6 +28,7 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 
 #ejercicioTres{
+    display: inline;
     position: center;
 }
 /* Ejercicio 4: */
