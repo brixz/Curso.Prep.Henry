@@ -38,6 +38,7 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 #ejercicioCuatro{
     position: fixed;
     top: 0%;
+    z-index: 2;
 }
 
 
