@@ -35,7 +35,10 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Ejercicio 4: */
 
 /* Acá va tu código */
-
+#ejercicioCuatro{
+    position: fixed;
+    left: 0%;
+}
 
 
 /* Ejercicio 5: */
