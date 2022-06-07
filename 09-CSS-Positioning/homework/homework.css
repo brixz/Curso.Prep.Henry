@@ -28,9 +28,7 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 
 #ejercicioTres{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: center;
 }
 /* Ejercicio 4: */
 
