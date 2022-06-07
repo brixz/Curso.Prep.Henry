@@ -26,7 +26,11 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Acá va tu código */
 
 
-
+#ejercicioTres{
+    width: 200px;
+    height: 100px;
+    position: center;
+}
 /* Ejercicio 4: */
 
 /* Acá va tu código */
