@@ -45,7 +45,9 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Acá va tu código */
 #ejercicioCinco{
-    display: flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
