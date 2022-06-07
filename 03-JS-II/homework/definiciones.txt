@@ -1,0 +1,5 @@
+FOR: es un bucle(osea que se repite), sirve para realizar  operaciones mas simplificadas.
+OPERADORES LOGICOS:
+        &&(and); compara dos expresiones y devuelve true si ambas los son.
+        ||(or); compara las expresiones y devuelve tru si una o ambaslo son.
+        !(not); devuelve el valor opuesto de lo que le pasamos.
