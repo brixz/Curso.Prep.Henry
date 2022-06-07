@@ -36,7 +36,9 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Acá va tu código */
 #ejercicioCuatro{
-    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
