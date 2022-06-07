@@ -55,7 +55,7 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Ejercicio 6. */
 #derecha{
     position: absolute;
-    right: 1%;
+    right: 3%;
 }
 #izquierda{
     position: absolute;
