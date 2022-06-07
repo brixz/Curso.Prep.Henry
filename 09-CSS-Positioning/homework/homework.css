@@ -53,3 +53,11 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 
 /* Ejercicio 6. */
+#derecha{
+    position: absolute;
+    right: 0%;
+}
+#izquierda{
+    position: absolute;
+    left: 0%;
+}
