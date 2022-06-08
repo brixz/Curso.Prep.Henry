@@ -114,7 +114,14 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
+  if (numero - Math.floor(numero) == 0){
+    return true;
 }
+else {
+    return false;
+}
+}
+esEntero(5.8);//false
 
 function fizzBuzz(numero) {
   // Si "numero" es divisible entre 3, devuelve "fizz"
