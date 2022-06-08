@@ -114,7 +114,7 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-  if (numero - Math.floor(numero) == 0){
+  if (numero %  1 === 0){
     return true;
 }
 else {
@@ -135,7 +135,7 @@ function fizzBuzz(numero) {
     else console.log(i);
 }
 }
-
+fizzBuzz(3);
 function operadoresLogicos(num1, num2, num3) {
   //La función recibe tres números distintos. 
   //Si num1 es mayor a num2 y a num3 y además es positivo, retornar ---> "Número 1 es mayor y positivo"
@@ -146,13 +146,13 @@ function operadoresLogicos(num1, num2, num3) {
   if ((num1 > num2 && num1 > num3) && num1 === 1) {
     return "Numero 1 es mayor y positivo";
   }
-  else if (num3, num1, num2 === 0){
+  else if (num1 <= 0 || num2 <= 0 || num3 <= 0){
     return "Hay un negativo";
   }
   else if (num3 > num1 && num3 > num2){
     return num3++;
   }
-  else if (num1, num2, num3 === 0){
+  else if (num1 === 0 || num2 === 0 || num3 === 0){
     return "Error";
   }
   return false;
