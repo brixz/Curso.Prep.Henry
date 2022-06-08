@@ -209,12 +209,12 @@ tablaDelSeis(6);
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
-if (numero.length === 3) {
+if (numero < 99 && numero > 1000) {
   return true;
 }  
 return false;
 }
-tieneTresDigitos("435");
+tieneTresDigitos(435);
 function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
