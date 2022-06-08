@@ -128,12 +128,17 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 5, devuelve "buzz"
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
-  for (var i = 1; i < 101; i++) {
-    if (i % 15 == 0) console.log("FizzBuzz");
-    else if (i % 3 == 0) console.log("Fizz");
-    else if (i % 5 == 0) console.log("Buzz");
-    else console.log(i);
-}
+  
+    if (numero % 15 == 0){ 
+      console.log("FizzBuzz");
+    }
+    else if (numero % 3 == 0){
+      console.log("Fizz");
+    } 
+    else if (numero % 5 == 0) {
+      console.log("Buzz");
+    }
+    return numero;
 }
 fizzBuzz(3);
 function operadoresLogicos(num1, num2, num3) {
