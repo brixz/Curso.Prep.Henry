@@ -143,7 +143,21 @@ function operadoresLogicos(num1, num2, num3) {
   //Si num3 es más grande que num1 y num2, aumentar su valor en 1 y retornar el nuevo valor.
   //0 no es ni positivo ni negativo. Si alguno de los argumentos es 0, retornar "Error".
   //Si no se cumplen ninguna de las condiciones anteriores, retornar false. 
+  if ((num1 > num2 && num1 > num3) && num1 === 1) {
+    return "Numero 1 es mayor y positivo";
+  }
+  else if (num3, num1, num2 === 0){
+    return "Hay un negativo";
+  }
+  else if (num3 > num1 && num3 > num2){
+    return num3++;
+  }
+  else if (num1, num2, num3 === 0){
+    return "Error";
+  }
+  return false;
 }
+operadoresLogicos(3,5,8);//9
 
 function esPrimo(numero) {
   // Devuelve "true" si "numero" es primo
