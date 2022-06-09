@@ -3,7 +3,11 @@
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
-  return array[0];
+  var array = arguments;
+  function devuelve{
+    return array[0];
+  }
+  
 }
 devolverPrimerElemento(Array[10, 34,7, 7]);
 
