@@ -1,0 +1,2 @@
+ARRAYS: es una variable a la cual se le da multiples valores dentro de las llavesy separados por coma.
+Se puede acceder a estos mediante su posicion -1, es decir, 1 sera 0, 2 sera 1, y asi sucesivamente.
