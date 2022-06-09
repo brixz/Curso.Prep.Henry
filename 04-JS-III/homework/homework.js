@@ -9,19 +9,21 @@ function devolverPrimerElemento(array) {
   }
   
 }
-devolverPrimerElemento(Array[10, 34,7, 7]);
+devolverPrimerElemento([10, 34,7, 7]);
 
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
+  return array.lenght -1;
 }
-
+devolverUltimoElemento(23, 3, 4, 5);
 
 function obtenerLargoDelArray(array) {
   // Devuelve el largo de un array
   // Tu código:
+  return array.lenght;
 }
-
+obtenerLargoDelArray("brian", 34, 53);
 
 function incrementarPorUno(array) {
   // "array" debe ser una matriz de enteros (int/integers)
