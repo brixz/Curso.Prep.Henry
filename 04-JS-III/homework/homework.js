@@ -10,7 +10,7 @@ devolverPrimerElemento(10, 34,7, 7);
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
-  return array.lenght -1;
+  return array[0] -1;
 }
 devolverUltimoElemento(23, 3, 4, 5);
 
@@ -19,7 +19,7 @@ function obtenerLargoDelArray(array) {
   // Tu código:
   return array.lenght;
 }
-obtenerLargoDelArray(14, 34, 53);
+obtenerLargoDelArray(14, 34, 53, 7);
 
 function incrementarPorUno(array) {
   // "array" debe ser una matriz de enteros (int/integers)
