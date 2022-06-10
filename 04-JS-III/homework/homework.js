@@ -5,21 +5,21 @@ function devolverPrimerElemento(array) {
   // Tu código:
     return array[0];
 }
-devolverPrimerElemento(10, 34,7, 7);
+devolverPrimerElemento(10,34,7,7);
 
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
   return array[array.lenght -1];
 }
-devolverUltimoElemento(23, 3, 4, 5);
+devolverUltimoElemento(23,3,4,12);
 
 function obtenerLargoDelArray(array) {
   // Devuelve el largo de un array
   // Tu código:
   return array.lenght;
 }
-obtenerLargoDelArray(14, 34, 53, 7);
+obtenerLargoDelArray(14,34,53,7);
 
 function incrementarPorUno(array) {
   // "array" debe ser una matriz de enteros (int/integers)
