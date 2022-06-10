@@ -10,14 +10,14 @@ devolverPrimerElemento(10, 34,7, 7);
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
-  return array[0] -1;
+  return array.lenght -1;
 }
 devolverUltimoElemento(23, 3, 4, 5);
 
 function obtenerLargoDelArray(array) {
   // Devuelve el largo de un array
   // Tu código:
-  return array.lenght;
+  return this.lenght;
 }
 obtenerLargoDelArray(14, 34, 53, 7);
 
@@ -26,9 +26,11 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
-  return array.lenht++;
+  for (let a = array; a <= array.lenght + 1; a++){
+    return a;
+  }
 }
-incrementarPorUno(4, 5, 6)
+incrementarPorUno(4,5,6,8)
 
 function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
