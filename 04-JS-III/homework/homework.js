@@ -10,7 +10,7 @@ devolverPrimerElemento(10,34,7,7);
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
-  return array[array.lenght - 1];
+  return array[array.length - 1];
 }
 devolverUltimoElemento(23,3,4,12);
 
