@@ -10,7 +10,7 @@ devolverPrimerElemento(10,34,7,7);
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
-  return array[array.lenght -1];
+  return array[array.lenght - 1];
 }
 devolverUltimoElemento(23,3,4,12);
 
@@ -36,9 +36,10 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
+  array[array.length] = elemento;
+  return array;
 }
-
-
+agregarItemAlFinalDelArray(45,67);
 function agregarItemAlComienzoDelArray(array, elemento) {
   // Añade el "elemento" al comienzo del array
   // y devuelve el array
@@ -54,7 +55,6 @@ function dePalabrasAFrase(palabras) {
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
 }
-
 
 function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
