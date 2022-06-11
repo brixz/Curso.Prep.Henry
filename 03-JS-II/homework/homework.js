@@ -49,20 +49,21 @@ function saludo(idioma) {
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
-  if(idioma === 'alemán'){
+  if(idioma === alemán){
     return "Guten Tag!";
 }
-else if( idioma === 'mandarin'){
+else if( idioma === mandarin){
     return "Ni Hao!";
 }
-else if (idioma === "ingles") {
+else if (idioma === ingles) {
   return "Hello";
 }
-else{
+else if(idioma === undefined){
     return "Hola!";
 }
 }
 saludo('alemán');
+
 function colors(color) {
   //La función recibe un color. Devolver el string correspondiente:
   //En caso que el color recibido sea "blue", devuleve --> "This is blue"
