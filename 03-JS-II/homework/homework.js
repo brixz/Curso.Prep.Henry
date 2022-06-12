@@ -176,12 +176,10 @@ function esPrimo(numero) {
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
   for (var i = 2; i <= numero; i++) {
-    if (numero % numero === 0 && numero % 1 === numero){
+    if (numero % i === 0){
         return true;
     }
-    else{
       return false;
-    }
   }
 }
 esPrimo(5);
@@ -206,7 +204,6 @@ function tablaDelSeis(){
   for (var i = 0; i <= 10; i++) {
       return 6 * i;
   }
-  return i.length;
 }
 tablaDelSeis();
 
