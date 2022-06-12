@@ -132,14 +132,14 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 5, devuelve "buzz"
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
-  if(numero % 3 === 0) {
+  if(numero % 3 === 0 &&  numero % 5 === 0){
+    return "fizzbuzz";
+  }
+  else if(numero % 3 === 0) {
     return "fizz";
   } 
   else if(numero % 5 === 0){
     return "buzz";
-  }
-  else if(numero % 3 === 0 &&  numero % 5 === 0){
-    return "fizzbuzz";
   }
   else {
     return numero;
@@ -161,7 +161,7 @@ function operadoresLogicos(num1, num2, num3) {
     return "Error";
   }
   else if(num1 > num2 && num1 > num3) {
-    return "Numero 1 es mayor y positivo";
+    return "Número 1 es mayor y positivo";
   }
   else if (num3 > num1 && num3 > num2){
     return num3 + 1;
