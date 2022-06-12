@@ -56,9 +56,9 @@ else if( idioma === "mandarin"){
     return "Ni Hao!";
 }
 else if (idioma === "ingles") {
-  return "Hello";
+  return "Hello!";
 }
-else if(idioma === "undefined"){
+else if(idioma !== "aleman" || "mandarin" || "ingles"){
     return "Hola!";
 }
 }
