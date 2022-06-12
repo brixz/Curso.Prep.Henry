@@ -142,6 +142,7 @@ function fizzBuzz(numero) {
   }
   else {
     return numero;
+    } 
   }
 fizzBuzz(3);
 function operadoresLogicos(num1, num2, num3) {
