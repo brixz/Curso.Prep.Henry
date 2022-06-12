@@ -196,16 +196,15 @@ else if(valor === "false"){
 }
 }
 esVerdadero("true");
-function tablaDelSeis(tabla){
+function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
   for (var i = 0; i <= 10; i++) {
-      console.log( tabla * i);
+      console.log( 6 * i);
   }
   
 }
-tablaDelSeis(6);
 
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
