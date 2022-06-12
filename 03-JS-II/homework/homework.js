@@ -204,9 +204,9 @@ function tablaDelSeis(){
   //Escribe tu código aquí
   var i = [];   
   for (var i = 0; i <= 10; i++) {
-      console.log( 6 * i);
+      return 6 * i;
   }
-  
+  return i;
 }
 tablaDelSeis();
 
