@@ -179,8 +179,10 @@ function esPrimo(numero) {
     if (numero % i === 0){
         return true;
     }
-}
-return false;
+    else{
+      return false;
+    }
+  }
 }
 esPrimo(5);
 
