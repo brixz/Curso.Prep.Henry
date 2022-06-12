@@ -73,18 +73,19 @@ function colors(color) {
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
   switch (color) {
-    case color === "blue":
+    case "blue":
       return 'This is blue';
-    case color === "red":
+    case "red":
       return 'This is red';
       
-    case color === "green":
+    case "green":
       return 'This is green';
       
-    case color === "orange":
+    case "orange":
      return 'This is orange';
     
-    default:'Color not found'
+    default:
+      return 'Color not found';
   }
 }
 colors("negro");
@@ -107,7 +108,7 @@ function estaEnRango(numero) {
   }
   return false;
 }
-estaEnRango(56);
+estaEnRango(25);
 function esEntero(numero) {
   // Devuelve "true" si "numero" es un entero (int/integer)
   // Ejemplo: 0.8 -> false
@@ -131,14 +132,14 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
   
-    if (numero % 15 === 0){ 
-      console.log("FizzBuzz");
+    if (numero % 3 === 0 && numero % 5 ===0){ 
+      console.log("fizzbuzz");
     }
     else if (numero % 3 === 0){
-      console.log("Fizz");
+      console.log("fizz");
     } 
     else if (numero % 5 === 0) {
-      console.log("Buzz");
+      console.log("buzz");
     }
     return numero;
 }
@@ -150,7 +151,7 @@ function operadoresLogicos(num1, num2, num3) {
   //Si num3 es más grande que num1 y num2, aumentar su valor en 1 y retornar el nuevo valor.
   //0 no es ni positivo ni negativo. Si alguno de los argumentos es 0, retornar "Error".
   //Si no se cumplen ninguna de las condiciones anteriores, retornar false. 
-  if ((num1 > num2 && num1 > num3) && num1 === 1) {
+  if (num1 > num2 && num1 > num3 && num1 === 1) {
     return "Numero 1 es mayor y positivo";
   }
   else if (num1 <= 0 || num2 <= 0 || num3 <= 0){
