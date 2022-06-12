@@ -183,6 +183,7 @@ function esPrimo(numero) {
     }
   }
   return true;
+ }
 esPrimo(5);
 
 function esVerdadero(valor){
