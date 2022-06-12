@@ -201,7 +201,7 @@ function tablaDelSeis(){
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
   var tabla = i;
-  for (var i = 10; i >= 0; i--) {
+  for (var i = 0; i <= 10; i++) {
       console.log( 6 * i);
   }
   
