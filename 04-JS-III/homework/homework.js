@@ -32,7 +32,7 @@ function incrementarPorUno(array) {
   }
   return incrementa[y];
 }
-incrementarPorUno(4,5,6,8)
+incrementarPorUno(4,5,6,8);
 
 function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
