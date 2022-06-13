@@ -27,10 +27,10 @@ function incrementarPorUno(array) {
   // y devuelve el array
   // Tu código:
   var incrementa = [];
-  for(var y = array; y <= array.length; y++ ){
-    incrementa = incrementa[y++];
+  for(var y = array; y >= array.length; y++ ){
+    incrementa = y;
   }
-    return incrementa[y];
+    return incrementa;
 }
 incrementarPorUno(4,5,6,8);
 
