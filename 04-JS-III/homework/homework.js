@@ -47,9 +47,9 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // y devuelve el array
   // Pista: usa el método `.unshift`
   // Tu código:
-  array = array.unshift(elemento);
+  array = array.unshift("diaz");
 }
-agregarItemAlComienzoDelArray("Brian","Diaz");
+agregarItemAlComienzoDelArray("Brian");
 
 function dePalabrasAFrase(palabras) {
   // "palabras" es un array de strings/cadenas
