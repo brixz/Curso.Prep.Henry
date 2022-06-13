@@ -47,8 +47,7 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // y devuelve el array
   // Pista: usa el método `.unshift`
   // Tu código:
-  var array = agregarItemAlComienzoDelArray.unshift(elemento);
-  return array;
+  array = array.unshift(elemento);
 }
 agregarItemAlComienzoDelArray("Brian","Diaz");
 
