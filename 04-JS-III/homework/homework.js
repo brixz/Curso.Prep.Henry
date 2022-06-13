@@ -30,7 +30,7 @@ function incrementarPorUno(array) {
   for(var y = array; y <= array.length; y++ ){
       incrementa = y++;
   }
-  return incrementa[y];
+  return incrementa;
 }
 incrementarPorUno(4,5,6,8);
 
