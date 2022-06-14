@@ -66,7 +66,7 @@ function arrayContiene(array, elemento) {
   elemento = 56;
   return array.includes(elemento);
 }
-arrayContiene(array[23, 56, 18]);
+arrayContiene(18,23,65,56);
 
 function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
