@@ -58,7 +58,7 @@ function dePalabrasAFrase(palabras) {
   var newstring = palabras.join(' ');
   return newstring;
 }
-dePalabrasAFrase('Hola','soy','Brian','Diaz');
+dePalabrasAFrase('Hola','soy','Brian');
 
 function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
