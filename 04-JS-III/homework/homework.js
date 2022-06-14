@@ -55,10 +55,8 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
-  var newstring = palabras.join(' ');
-  return newstring;
+  return palabras.join(' ');
 }
-dePalabrasAFrase('Hola','soy','Brian');
 
 function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
