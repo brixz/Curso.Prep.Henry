@@ -95,9 +95,7 @@ function numeroMasGrande(numeros) {
   // Devuelve el número más grande
   // Tu código:
   return Math.max(numeros);
- 
 }
-numeroMasGrande(13,10,5,20);
 
 function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
