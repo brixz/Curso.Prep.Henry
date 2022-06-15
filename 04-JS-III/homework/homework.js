@@ -103,12 +103,18 @@ function multiplicarArgumentos() {
   // Escribe tu código aquí:
 }
 
-
 function cuentoElementos(arreglo){
   //Realiza una función que retorne la cantidad de los elementos del arreglo cuyo valor es mayor a 18.
   //Escribe tu código aquí
-
+  function cantidad(arreglo){
+    if (arreglo.length >= 18) {
+      return arreglo.length;
+    }
+     
+  }
+  return cantidad();
 }
+cuentoElementos(12,212,45,65,77,56,65,8,5,3,54,536,7,35,35,355,67,735,34,6,35,65)
 
 
 function diaDeLaSemana(numeroDeDia) {
