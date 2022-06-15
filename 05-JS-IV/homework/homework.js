@@ -30,9 +30,7 @@ function invocarMetodo(objeto, metodo) {
   // Invoca ese método
   // Nada necesita ser devuelto ("returned")
   // Tu código:
-  objeto[metodo] = function () {
-    
-  }
+  objeto= [metodo()];
 }
 
 function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
