@@ -148,8 +148,8 @@ function empiezaConNueve(n) {
   //Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero 
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
-  let n = toString;
-    if (n.charAt(0) === "9") {
+  let entero = n.toString;
+    if (entero.charAt(0) === "9") {
       return true;
     }  
     return false;
