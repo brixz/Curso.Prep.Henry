@@ -196,12 +196,12 @@ function mayorACien(array) {
   var mayorA =[];
   for(let i = 0; i < array.length; i++){
     if (array[i] > 100) {
-      mayorA.push(mayorA[i]);
+      mayorA.push(array[i]);
     }
   }
   return mayorA;
 }
-
+mayorACien(35,132,76.167,128,67,8,183);
 
 function breakStatement(numero) {
   //Iterar en un bucle aumentando en 2 el numero recibido hasta un límite de 10 veces.
