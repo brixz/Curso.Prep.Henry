@@ -237,14 +237,16 @@ function continueStatement(numero) {
   //Pista: usá el statement 'continue'
   // Tu código:
   var au = [];
+  suma = numero;
   for (let y = 0; y < 10; y++) {
-    if(numero[y] < 10){
-    au = numero + 2;
+    if(y === 5)continue;
+    else{
+    suma = suma + 2;
+    au.push(suma);
   } 
   }
   return au;
 }
-
 // No modificar nada debajo de esta línea
 // --------------------------------
 
