@@ -238,8 +238,9 @@ function continueStatement(numero) {
   // Tu código:
   var au = [];
   for (let y = 0; y < 10; y++) {
-     au = numero + 2;
-    
+    if(numero[y] < 10){
+    au = numero + 2;
+  } 
   }
   return au;
 }
