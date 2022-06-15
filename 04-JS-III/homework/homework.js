@@ -129,7 +129,7 @@ function cuentoElementos(arreglo){
   }
   return registrar;
 }
-
+cuentoElementos(132,3,5);
 
 function diaDeLaSemana(numeroDeDia) {
   //Suponga que los días de la semana se codifican como 1 = Domingo, 2 = Lunes y así sucesivamente. 
