@@ -119,9 +119,9 @@ function multiplicarArgumentos() {
     var mult =[0];
     for (let index = 0; index < arguments.length; index++) {
       mult = mult * arguments[index];
-      
+      return mult;
     }
-    return mult;
+    
   }
 }
 
