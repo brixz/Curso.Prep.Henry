@@ -94,8 +94,8 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
-  var mayor = Math.max(numeros);
-  return mayor;
+  return Math.max(numeros);
+ 
 }
 numeroMasGrande(13,10,5,20);
 
