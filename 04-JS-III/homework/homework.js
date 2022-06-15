@@ -112,9 +112,6 @@ function multiplicarArgumentos() {
   if (arguments.length < 1) {
     return 0;
   }
-  else if(arguments.length === 1){
-    return arguments;
-  }
     var mult =[1];
     for (let index = 0; index < arguments.length; index++) {
       mult = mult * arguments[index];
