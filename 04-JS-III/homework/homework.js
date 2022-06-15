@@ -123,13 +123,12 @@ function cuentoElementos(arreglo){
   //Escribe tu código aquí
   var registrar = 0;
   for(let i = 0; i < arreglo.length; i++){
-    if(arreglo[i] < 18){
+    if(arreglo[i] > 18){
       registrar++;
     }
   }
   return registrar;
 }
-cuentoElementos(132,5);
 
 function diaDeLaSemana(numeroDeDia) {
   //Suponga que los días de la semana se codifican como 1 = Domingo, 2 = Lunes y así sucesivamente. 
