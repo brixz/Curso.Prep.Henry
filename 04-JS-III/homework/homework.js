@@ -127,6 +127,7 @@ function cuentoElementos(arreglo){
       registrar++;
     }
   }
+  return registrar;
 }
 
 
