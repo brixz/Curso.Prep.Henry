@@ -94,9 +94,10 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
-  return Math.max(numeros);
+  var mayor = Math.max(numeros);
+  return mayor;
 }
-
+numeroMasGrande(13,10,5,20);
 
 function multiplicarArgumentos() {
   // Usa la palabra clave `arguments` para multiplicar todos los argumentos y devolver el producto
