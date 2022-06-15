@@ -115,14 +115,11 @@ function multiplicarArgumentos() {
   else if(arguments.length === 1){
     return arguments;
   }
-  else if(arguments.length > 1){
-    var mult =[0];
+    var mult =[1];
     for (let index = 0; index < arguments.length; index++) {
       mult = mult * arguments[index];
-      return mult;
     }
-    
-  }
+    return mult;
 }
 multiplicarArgumentos(5);
 function cuentoElementos(arreglo){
