@@ -237,13 +237,12 @@ function continueStatement(numero) {
   //Pista: usá el statement 'continue'
   // Tu código:
   var au = [];
-  for (let y = 0; y < 11; y++) {
+  for (let y = 0; y < 10; y++) {
      au = numero + 2;
     
   }
   return au;
 }
-continueStatement(2);
 
 // No modificar nada debajo de esta línea
 // --------------------------------
