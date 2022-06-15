@@ -114,7 +114,6 @@ function cuentoElementos(arreglo){
   }
   return cantidad();
 }
-cuentoElementos(12,212,45,65,77,56,65,8,5,3,54,536,7,35,35,355,67,735,34,6,35,65)
 
 
 function diaDeLaSemana(numeroDeDia) {
