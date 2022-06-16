@@ -1,0 +1,7 @@
+OBJETOS; son similares a los array a diferencia de puedden contener mucha informacion pero del mismo tema.
+PROPIEDAD; es una asociacion o vinculo entre un nombre y un valor, key-value.
+METODOS; es una funcion dentro de un objeto.
+FOR...IN; sirve para iterar sobre las propiedades de un objeto al igual que "for" en los array, a diferencia
+ de que se debe asignar una nueva variable.
+ NOTACION DE PUNTOS(DOT NOTATION); es la forma de acceder a la propiedad a travez del punto.
+ NOTACION DE CORCHETES(BRACKET NOTATION); es la forma de acceder a la propiedad a  travez del corchete.
