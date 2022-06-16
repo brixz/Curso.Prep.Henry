@@ -119,10 +119,9 @@ function pasarUsuarioAPremium(usuarios) {
   // Define cada propiedad "esPremium" de cada objeto como "true"
   // Devuelve el array de usuarios
   // Tu código:
-  this.usuario.esPremium = true;
-  return usuarios;
+    const cambiar= usuarios[usuario.esPremium] = true;
+    return cambiar;
 }
-
 function sumarLikesDeUsuario(usuario) {
   // "usuario" tiene una propiedad llamada "posts" que es un array
   // "posts" es un array de objetos "post"
