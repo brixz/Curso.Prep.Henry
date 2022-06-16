@@ -79,7 +79,7 @@ function tienePropiedad(objeto, propiedad) {
   // "propiedad" es un string
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(objeto["key"] === propiedad){
+  if(objeto["key"] === propiedad.string){
     return true;
   }
   return false;
@@ -130,7 +130,6 @@ function sumarLikesDeUsuario(usuario) {
   // Suma todos los likes de todos los objetos "post"
   // Devuelve la suma
   // Tu código:
-
 }
 
 function agregarMetodoCalculoDescuento(producto) {
