@@ -131,6 +131,7 @@ function sumarLikesDeUsuario(usuario) {
   // Devuelve la suma
   // Tu código:
   const sumall = usuario.map(item => item.likes).reduce((prev, curr) => prev + curr, 0);
+  return sumall;
 }
 
 function agregarMetodoCalculoDescuento(producto) {
