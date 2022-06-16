@@ -130,7 +130,7 @@ function sumarLikesDeUsuario(usuario) {
   // Suma todos los likes de todos los objetos "post"
   // Devuelve la suma
   // Tu código:
-  const sumall = usuario.map(item => item.likes).reduce((prev, curr) => prev + curr, 0);
+  const sumall = usuario.posts.post.map(item => item.likes).reduce((prev, curr) => prev + curr, 0);
   return sumall;
 }
 
