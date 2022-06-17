@@ -1,0 +1,3 @@
+PROTOTYPE; es la forma de crear un metodo y compartirlo con otros objetos sin la
+ necesidad de crear un metodo para cada objeto.
+CONSTRUCCTORES DE CLASES; crea un nuevo objeto a partir de una funcion constructora.
