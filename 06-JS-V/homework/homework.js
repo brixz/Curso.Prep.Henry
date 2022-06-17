@@ -86,8 +86,8 @@ return Juan;
 function agregarMetodo() {
   //La función agrega un método "datos" a la clase Persona que toma el nombre y la edad de la persona y devuelve: 
   //Ej: "Juan, 22 años"
-  Persona.prototype.dato =function() {
-   return dato = this.nombre +", " + this.edad +" años";
+  Persona.prototype.datos =function() {
+   return datos = this.nombre +", " + this.edad +" años";
   }
 
 }
