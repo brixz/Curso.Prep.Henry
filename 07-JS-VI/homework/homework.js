@@ -30,7 +30,7 @@ function sumarArray(numeros, cb) {
     resultado = resultado[i] + numeros[i];
     
   }
-  cb = resultado;
+  cb() = resultado;
 }
 
 function forEach(array, cb) {
